@@ -17,6 +17,7 @@ class App extends React.Component {
   clicks(){
     let color = this.state.color
     let counter = this.state.counter
+    //box color will change to either blue or orange when clicked
     if(color === 'orange'){
       color = 'blue'
     } else if(color === 'blue'){
@@ -28,7 +29,7 @@ class App extends React.Component {
   return (
     
     <div className="App">
-      
+      <div id='box'></div>
     </div>
   );
 }
