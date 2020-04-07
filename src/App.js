@@ -36,7 +36,7 @@ class App extends React.Component {
   render() {
   return (
     <div className="App">
-      <div id='box' onClick={this.props.clicks}></div>
+      <div id='box'  style={{backgroundColor: this.state.color}} onClick={this.props.clicks}></div>
     </div>
   )
   }
