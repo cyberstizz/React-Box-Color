@@ -34,7 +34,7 @@ class App extends React.Component {
   render() {
   return (
     <div className="App">
-      <div>{this.state.count}</div>
+      <h1 id='number'>count is {this.state.count}</h1>
       <div id='box' style={{backgroundColor: this.state.color}} onClick={this.click}>Click me</div>
     </div>
   )

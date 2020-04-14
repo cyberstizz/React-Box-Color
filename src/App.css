@@ -1,10 +1,16 @@
 .App {
   text-align: center;
+  display: flex;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+#number{
+  font-size: larger;
+  color: black
 }
 
 @media (prefers-reduced-motion: no-preference) {
